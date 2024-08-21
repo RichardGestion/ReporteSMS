@@ -26,6 +26,16 @@
     color: #1E92E9;
 }
 
+.fancy-file__fancy-file-button{
+    background: #5BC0DE url(./folder.png) 4px center/25px no-repeat;
+    border: 1px solid #5BC0DE;
+    color: white;
+    white-space: nowrap;
+    border-radius: 0 4px 4px 0;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
 span {
     font-size: 17px;
     color: #07a3fd;
@@ -42,14 +52,13 @@ span {
 
 @media(max-width:991px) {
     
-     .fancy-file__fancy-file-name {
-        width: 150%;
+.fancy-file__fancy-file-name {
+        width: 70%;
     }
 
 
     .fancy-file.green + label {
-        width: 50%;
+        width: 100%;
     }
-
 
 }
