@@ -42,28 +42,13 @@ span {
 
 @media(max-width:991px) {
     
-    .fancy-file.green {
-        width: 100%;
+     .fancy-file__fancy-file-name {
+        width: 150%;
     }
 
-    .fancy-file {
-        width: 100%;
-    }
-
-    .fancy-file__fancy-file-name {
-        width: 100%;
-    }
-
-    .fancy-file__fancy-file-name span {
-        width: 100%;
-    }
 
     .fancy-file.green + label {
-        width: 100%;
-    }
-
-    .fancy-file__fancy-file-button {
-        width: 100%;
+        width: 50%;
     }
 
 
